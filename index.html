@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>My calculator</h1>
+  <p>You can calculate everything!</p>
+  <section>
+   <div class="container">
+     <div class="display">
+       <input class="screen" type="text" placeholder="0.0">
+     </div>
+     <div class="button"> 
+     <div id="lo"><button onclick="clr()" type="submit">C</button>
+       <button onclick="del()" type="submit">del</button>
+       <button onclick="calc()" type="submit">=</button>
+     </div>
+       <br>
+       <button onclick="insert('1')" type="submit">1</button>
+       <button onclick="insert('2')" type="submit">2</button>
+       <button onclick="insert('3')" type="submit">3</button>
+       <button onclick="insert('+')" type="submit">+</button>
+       <br>
+       <button onclick="insert('4')" type="submit">4</button>
+       <button onclick="insert('5')" type="submit">5</button>
+       <button onclick="insert('6')" type="submit">6</button>
+       <button onclick="insert('-')" type="submit">-</button>
+       <br>
+       <button onclick="insert('7')" type="submit">7</button>
+       <button onclick="insert('8')" type="submit">8</button>
+       <button onclick="insert('9')" type="submit">9</button>
+       <button onclick="insert('*')" class="x" type="submit">×</button>
+       <br>
+       
+     </div>
+   </div>
+  </section>
+  <footer class="">
+    <p>DigiSama 🐘©open source </p>
+  </footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

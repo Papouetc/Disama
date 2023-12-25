@@ -1,0 +1,38 @@
+body {
+    font-size: 15pt;
+    align-content: center;
+    text-align: center;
+    background-color: lightcyan;
+    
+}
+
+.container{
+  border: solid 2px black ;
+  margin: 40px;
+  border-radius: 0 0 20px 20px;
+  background-color: ;
+}
+button{
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  border-radius: 8px;
+  color: black ;
+  background-color: white;
+}
+input{
+  margin: 5px;
+  margin-bottom: 60px;
+  height:90px;
+  width: 220px;
+  border-radius: 9%;
+  text-align: end;
+  font-size: 40px;
+}
+.x{
+  border-radius: 20%;
+}
+#lo{
+  margin-left: 60px;
+  margin-top: 5px;
+}
